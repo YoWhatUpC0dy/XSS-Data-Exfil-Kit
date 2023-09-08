@@ -1,7 +1,7 @@
 # XSS-Data-Exfil-Kit
 XSS Data Exfiltration Tool
 
-Edit of code this post -  https://www.trustedsec.com/blog/simple-data-exfiltration-through-xss/
+Edit of code from this post -  https://www.trustedsec.com/blog/simple-data-exfiltration-through-xss/
 
 This code demonstrates data exfiltration through an XSS (Cross-Site Scripting) vulnerability. The XSS payload is designed to extract sensitive data from the victim's web browser and divide it into manageable chunks. These chunks are then sent out as image requests, with the data embedded in the image filenames. The process also includes example commands and a Python script for reconstructing the original data.
 
